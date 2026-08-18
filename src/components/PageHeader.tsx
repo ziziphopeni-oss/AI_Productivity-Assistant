@@ -16,7 +16,7 @@ export function PageHeader({
       </span>
       <div>
         <h1 className="text-2xl font-semibold tracking-tight text-gradient-hot sm:text-3xl">{title}</h1>
-        <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{description}</p>
+        <p className="mt-1 max-w-2xl text-sm text-[oklch(0.6_0.17_350)]">{description}</p>
       </div>
     </div>
   );

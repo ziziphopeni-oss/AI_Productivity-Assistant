@@ -82,7 +82,7 @@ function Dashboard() {
         <h1 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
           AI Workplace Productivity Assistant
         </h1>
-        <p className="mt-3 max-w-xl text-sm opacity-90 sm:text-base">
+        <p className="mt-3 max-w-xl text-sm text-pink-300 opacity-95 sm:text-base">
           Automate the repetitive parts of your workday — writing, summarizing, planning and
           researching — while staying firmly in control of the final output.
         </p>
