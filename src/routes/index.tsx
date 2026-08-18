@@ -119,7 +119,7 @@ function Dashboard() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {TOOLS.map(({ to, icon: Icon, title, body }) => (
             <Link key={to} to={to} className="group">
-              <Card className="h-full transition-all group-hover:-translate-y-0.5 group-hover:shadow-[var(--shadow-elevated)]">
+              <Card className="h-full shadow-[var(--shadow-card)] transition-all group-hover:-translate-y-0.5 group-hover:shadow-[var(--shadow-elevated)]">
                 <CardHeader className="space-y-3">
                   <span className="flex size-10 items-center justify-center rounded-xl bg-secondary">
                     <Icon className="size-4 text-primary" />
