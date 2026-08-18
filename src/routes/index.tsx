@@ -115,7 +115,7 @@ function Dashboard() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-lg font-semibold tracking-tight">Your AI toolkit</h2>
+        <h2 className="text-lg font-semibold tracking-tight text-gradient-hot">Your AI toolkit</h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {TOOLS.map(({ to, icon: Icon, title, body }) => (
             <Link key={to} to={to} className="group">
@@ -142,7 +142,7 @@ function Dashboard() {
         <Card className="border-accent bg-accent/40">
           <CardHeader className="flex flex-row items-center gap-2 space-y-0">
             <ShieldCheck className="size-4 text-accent-foreground" />
-            <CardTitle className="text-base">Responsible AI use</CardTitle>
+            <CardTitle className="text-base text-[oklch(0.72_0.19_350)]">Responsible AI use</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2 text-sm text-muted-foreground">
             <p>
